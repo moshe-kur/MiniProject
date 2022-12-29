@@ -1,0 +1,13 @@
+C:\Users\nuhah\source\repos\miniBigProject\MinibigProject.Data.Sql\bin\Debug\MinibigProject.Data.Sql.dll
+C:\Users\nuhah\source\repos\miniBigProject\MinibigProject.Data.Sql\bin\Debug\MinibigProject.Data.Sql.pdb
+C:\Users\nuhah\source\repos\miniBigProject\MinibigProject.Data.Sql\bin\Debug\DAL.dll
+C:\Users\nuhah\source\repos\miniBigProject\MinibigProject.Data.Sql\bin\Debug\Model.dll
+C:\Users\nuhah\source\repos\miniBigProject\MinibigProject.Data.Sql\bin\Debug\DAL.pdb
+C:\Users\nuhah\source\repos\miniBigProject\MinibigProject.Data.Sql\bin\Debug\Model.pdb
+C:\Users\nuhah\source\repos\miniBigProject\MinibigProject.Data.Sql\obj\Debug\MinibigProject.Data.Sql.csproj.AssemblyReference.cache
+C:\Users\nuhah\source\repos\miniBigProject\MinibigProject.Data.Sql\obj\Debug\MinibigProject.Data.Sql.csproj.CoreCompileInputs.cache
+C:\Users\nuhah\source\repos\miniBigProject\MinibigProject.Data.Sql\obj\Debug\MinibigProject.Data.Sql.csproj.CopyComplete
+C:\Users\nuhah\source\repos\miniBigProject\MinibigProject.Data.Sql\obj\Debug\MinibigProject.Data.Sql.dll
+C:\Users\nuhah\source\repos\miniBigProject\MinibigProject.Data.Sql\obj\Debug\MinibigProject.Data.Sql.pdb
+C:\Users\nuhah\source\repos\miniBigProject\MinibigProject.Data.Sql\bin\Debug\System.Data.SqlClient.dll
+C:\Users\nuhah\source\repos\miniBigProject\MinibigProject.Data.Sql\bin\Debug\System.Data.SqlClient.xml
