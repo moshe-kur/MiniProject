@@ -13,21 +13,12 @@ namespace Users
     public static class Function1
     {
 
-        //localhost:7***/api*Users/Add
-        //localhost:7***/api*Users/Remove
-        //localhost:7***/api*Users/Update
-        //localhost:7***/api*Users/Get/1234
-
-        //OR
-        //localhost:7***/api*Users/Add?action=Add%ID=123
-
-
-
+        
 
 
         [FunctionName("Function1")]
         public static async Task<IActionResult> Run(
-            [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = "Users/{action}/{IdNumber?}")] HttpRequest req,
+            [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = "Products/{action}/{IdNumber?}")] HttpRequest req,
             string action, string IdNumber, ILogger log)
         {
             log.LogInformation("C# HTTP trigger function processed a request.");
@@ -65,10 +56,6 @@ namespace Users
                 default:
                     break;
             }
-
-            string responseMessage = string.IsNullOrEmpty(name)
-                ? "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response."
-                : $"Hello, {name}. This HTTP triggered function executed successfully.";
 
             return null;
         }

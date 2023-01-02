@@ -14,7 +14,7 @@ namespace Model
         public int SuplierID { get; set; }
         public int CategoryID { get; set; }
         public string QuantityPerUnit{ get; set; }
-        public SqlMoney UnitPrice { get; set; }
+        public Decimal UnitPrice { get; set; }
         public Int16 UnitInStock { get; set; }
         public Int16 UnitsOnOrder { get; set; }   
         public Int16 ReorderLevel { get; set; }

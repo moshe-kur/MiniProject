@@ -51,7 +51,7 @@ namespace MinibigProject.Data.Sql
                 OneProducts.SuplierID = reader.GetInt32(2);
                 OneProducts.CategoryID = reader.GetInt32(3);
                 OneProducts.QuantityPerUnit = reader.GetString(4);
-                OneProducts.UnitPrice = reader.GetSqlMoney(5);
+                OneProducts.UnitPrice = reader.GetDecimal(5);
                 OneProducts.UnitInStock = reader.GetInt16(6);
                 OneProducts.UnitsOnOrder = reader.GetInt16(7);
                 OneProducts.ReorderLevel = reader.GetInt16(8);
@@ -78,7 +78,7 @@ namespace MinibigProject.Data.Sql
                 product.SuplierID = reader.GetInt32(2);
                 product.CategoryID = reader.GetInt32(3);
                 product.QuantityPerUnit = reader.GetString(4);
-                product.UnitPrice = reader.GetSqlMoney(5);
+                product.UnitPrice = reader.GetDecimal(5);
                 product.UnitInStock = reader.GetInt16(6);
                 product.UnitsOnOrder = reader.GetInt16(7);
                 product.ReorderLevel = reader.GetInt16(8);
