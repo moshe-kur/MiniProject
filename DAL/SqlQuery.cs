@@ -37,7 +37,6 @@ namespace DAL
             //if error
             return null;
         }
-        //why static?
         public static void SendToDB(string sqlQuery)
         {
             const string connectionString = "Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Northwind;Data Source=localhost\\sqlexpress";

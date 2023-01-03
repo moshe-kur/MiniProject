@@ -26,5 +26,17 @@ namespace Entities
             MinibigProject.Data.Sql.Products OneProduct  = new MinibigProject.Data.Sql.Products();
             return OneProduct.SendToReadFroDB(Idnumber);
         }
+        public void sendUpdateProductToDB(Product product)
+        {
+            MinibigProject.Data.Sql.Products UpdateProduct = new MinibigProject.Data.Sql.Products();
+            UpdateProduct.SendFromDSToDal(product);
+        }
+        public void deleteProductFromDB(string Idnumber)
+        {
+            MinibigProject.Data.Sql.Products delteProduct = new MinibigProject.Data.Sql.Products();
+            delteProduct.DeleteFromDB(Idnumber);
+        }
+
+
     }
 }
